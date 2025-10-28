@@ -1,0 +1,43 @@
+{
+  "name": "wordpress-icons-font",
+  "version": "1.0.0",
+  "description": "Convert WordPress icons from @wordpress/icons package into a custom icon font. Icons by WordPress Design Team, conversion tool by DPlugins.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krstivoja/wordpress-icons-font.git"
+  },
+  "keywords": [
+    "wordpress",
+    "icons",
+    "icon-font",
+    "gutenberg",
+    "wordpress-icons",
+    "font-generator",
+    "svg-to-font"
+  ],
+  "author": "DPlugins <https://dplugins.com>",
+  "license": "ISC",
+  "credits": {
+    "icons": "WordPress Design Team (https://github.com/WordPress/gutenberg/tree/trunk/packages/icons)",
+    "tool": "DPlugins (https://dplugins.com)"
+  },
+  "bugs": {
+    "url": "https://github.com/krstivoja/wordpress-icons-font/issues"
+  },
+  "homepage": "https://github.com/krstivoja/wordpress-icons-font#readme",
+  "dependencies": {
+    "@wordpress/icons": "^11.0.0"
+  },
+  "devDependencies": {
+    "@wordpress/primitives": "^4.33.0",
+    "fantasticon": "^3.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "svgo": "^4.0.0"
+  }
+}

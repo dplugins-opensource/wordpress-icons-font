@@ -1,0 +1,5 @@
+node_modules/
+temp-svgs/
+package-lock.json
+
+.DS_Store

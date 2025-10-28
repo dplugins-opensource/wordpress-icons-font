@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress Icons Font Preview</title>
+    <link rel="stylesheet" href="dist/wordpress-icons.css">
+    <link rel="stylesheet" href="preview.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-left">
+                <h1>WordPress Icons Font</h1>
+                <div class="stats">317 icons available</div>
+            </div>
+            <div class="header-buttons">
+                <a href="https://github.com/krstivoja/wordpress-icons-font" target="_blank" class="btn btn-github">
+                    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                    View on GitHub
+                </a>
+                <a href="https://www.npmjs.com/package/wordpress-icons-font" target="_blank" class="btn btn-npm">
+                    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0v16h16V0H0zm13 13H8v-2H5v2H3V3h10v10z"/>
+                    </svg>
+                    View on npm
+                </a>
+                <a href="dist/" class="btn btn-download">
+                    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.5 1.5A.5.5 0 0 1 9 2v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 7.793V2a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M3 9.5a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V10a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V10a.5.5 0 0 1 .5-.5z"/>
+                    </svg>
+                    Download Fonts
+                </a>
+            </div>
+        </div>
+        <input type="text" class="search" placeholder="Search icons..." id="searchInput">
+        <div class="grid" id="iconGrid">
+            <div class="icon-item" data-name="add-card" onclick="copyIconClass('wpi-add-card')">
+                <i class="wpi wpi-add-card"></i>
+                <div class="icon-name">wpi-add-card</div>
+            </div>
+            <div class="icon-item" data-name="add-submenu" onclick="copyIconClass('wpi-add-submenu')">
+                <i class="wpi wpi-add-submenu"></i>
+                <div class="icon-name">wpi-add-submenu</div>
+            </div>
+            <div class="icon-item" data-name="add-template" onclick="copyIconClass('wpi-add-template')">
+                <i class="wpi wpi-add-template"></i>
+                <div class="icon-name">wpi-add-template</div>
+            </div>
+            <div class="icon-item" data-name="align-center" onclick="copyIconClass('wpi-align-center')">
+                <i class="wpi wpi-align-center"></i>
+                <div class="icon-name">wpi-align-center</div>
+            </div>
+            <div class="icon-item" data-name="align-justify" onclick="copyIconClass('wpi-align-justify')">
+                <i class="wpi wpi-align-justify"></i>
+                <div class="icon-name">wpi-align-justify</div>
+            </div>
+            <div class="icon-item" data-name="align-left" onclick="copyIconClass('wpi-align-left')">
+                <i class="wpi wpi-align-left"></i>
+                <div class="icon-name">wpi-align-left</div>
+            </div>
+            <div class="icon-item" data-name="align-none" onclick="copyIconClass('wpi-align-none')">
+                <i class="wpi wpi-align-none"></i>
+                <div class="icon-name">wpi-align-none</div>
+            </div>
+            <div class="icon-item" data-name="align-right" onclick="copyIconClass('wpi-align-right')">
+                <i class="wpi wpi-align-right"></i>
+                <div class="icon-name">wpi-align-right</div>
+            </div>
+            <div class="icon-item" data-name="archive" onclick="copyIconClass('wpi-archive')">
+                <i class="wpi wpi-archive"></i>
+                <div class="icon-name">wpi-archive</div>
+            </div>
+            <div class="icon-item" data-name="arrow-down" onclick="copyIconClass('wpi-arrow-down')">
+                <i class="wpi wpi-arrow-down"></i>
+                <div class="icon-name">wpi-arrow-down</div>
+            </div>
+            <div class="icon-item" data-name="arrow-down-right" onclick="copyIconClass('wpi-arrow-down-right')">
+                <i class="wpi wpi-arrow-down-right"></i>
+                <div class="icon-name">wpi-arrow-down-right</div>
+            </div>
+            <div class="icon-item" data-name="arrow-left" onclick="copyIconClass('wpi-arrow-left')">
+                <i class="wpi wpi-arrow-left"></i>
+                <div class="icon-name">wpi-arrow-left</div>
+            </div>
+            <div class="icon-item" data-name="arrow-right" onclick="copyIconClass('wpi-arrow-right')">
+                <i class="wpi wpi-arrow-right"></i>
+                <div class="icon-name">wpi-arrow-right</div>
+            </div>
+            <div class="icon-item" data-name="arrow-up" onclick="copyIconClass('wpi-arrow-up')">
+                <i class="wpi wpi-arrow-up"></i>
+                <div class="icon-name">wpi-arrow-up</div>
+            </div>
+            <div class="icon-item" data-name="arrow-up-left" onclick="copyIconClass('wpi-arrow-up-left')">
+                <i class="wpi wpi-arrow-up-left"></i>
+                <div class="icon-name">wpi-arrow-up-left</div>
+            </div>
+            <div class="icon-item" data-name="aspect-ratio" onclick="copyIconClass('wpi-aspect-ratio')">
+                <i class="wpi wpi-aspect-ratio"></i>
+                <div class="icon-name">wpi-aspect-ratio</div>
+            </div>
+            <div class="icon-item" data-name="at-symbol" onclick="copyIconClass('wpi-at-symbol')">
+                <i class="wpi wpi-at-symbol"></i>
+                <div class="icon-name">wpi-at-symbol</div>
+            </div>
+            <div class="icon-item" data-name="audio" onclick="copyIconClass('wpi-audio')">
+                <i class="wpi wpi-audio"></i>
+                <div class="icon-name">wpi-audio</div>
+            </div>
+            <div class="icon-item" data-name="background" onclick="copyIconClass('wpi-background')">
+                <i class="wpi wpi-background"></i>
+                <div class="icon-name">wpi-background</div>
+            </div>
+            <div class="icon-item" data-name="backup" onclick="copyIconClass('wpi-backup')">
+                <i class="wpi wpi-backup"></i>
+                <div class="icon-name">wpi-backup</div>
+            </div>
+            <div class="icon-item" data-name="bell" onclick="copyIconClass('wpi-bell')">
+                <i class="wpi wpi-bell"></i>
+                <div class="icon-name">wpi-bell</div>
+            </div>
+            <div class="icon-item" data-name="bell-unread" onclick="copyIconClass('wpi-bell-unread')">
+                <i class="wpi wpi-bell-unread"></i>
+                <div class="icon-name">wpi-bell-unread</div>
+            </div>
+            <div class="icon-item" data-name="block-default" onclick="copyIconClass('wpi-block-default')">
+                <i class="wpi wpi-block-default"></i>
+                <div class="icon-name">wpi-block-default</div>
+            </div>
+            <div class="icon-item" data-name="block-meta" onclick="copyIconClass('wpi-block-meta')">
+                <i class="wpi wpi-block-meta"></i>
+                <div class="icon-name">wpi-block-meta</div>
+            </div>
+            <div class="icon-item" data-name="block-table" onclick="copyIconClass('wpi-block-table')">
+                <i class="wpi wpi-block-table"></i>
+                <div class="icon-name">wpi-block-table</div>
+            </div>
+            <div class="icon-item" data-name="border" onclick="copyIconClass('wpi-border')">
+                <i class="wpi wpi-border"></i>
+                <div class="icon-name">wpi-border</div>
+            </div>
+            <div class="icon-item" data-name="box" onclick="copyIconClass('wpi-box')">
+                <i class="wpi wpi-box"></i>
+                <div class="icon-name">wpi-box</div>
+            </div>
+            <div class="icon-item" data-name="breadcrumbs" onclick="copyIconClass('wpi-breadcrumbs')">
+                <i class="wpi wpi-breadcrumbs"></i>
+                <div class="icon-name">wpi-breadcrumbs</div>
+            </div>
+            <div class="icon-item" data-name="brush" onclick="copyIconClass('wpi-brush')">
+                <i class="wpi wpi-brush"></i>
+                <div class="icon-name">wpi-brush</div>
+            </div>
+            <div class="icon-item" data-name="bug" onclick="copyIconClass('wpi-bug')">
+                <i class="wpi wpi-bug"></i>
+                <div class="icon-name">wpi-bug</div>
+            </div>
+            <div class="icon-item" data-name="button" onclick="copyIconClass('wpi-button')">
+                <i class="wpi wpi-button"></i>
+                <div class="icon-name">wpi-button</div>
+            </div>
+            <div class="icon-item" data-name="buttons" onclick="copyIconClass('wpi-buttons')">
+                <i class="wpi wpi-buttons"></i>
+                <div class="icon-name">wpi-buttons</div>
+            </div>
+            <div class="icon-item" data-name="calendar" onclick="copyIconClass('wpi-calendar')">
+                <i class="wpi wpi-calendar"></i>
+                <div class="icon-name">wpi-calendar</div>
+            </div>
+            <div class="icon-item" data-name="cancel-circle-filled" onclick="copyIconClass('wpi-cancel-circle-filled')">
+                <i class="wpi wpi-cancel-circle-filled"></i>
+                <div class="icon-name">wpi-cancel-circle-filled</div>
+            </div>
+            <div class="icon-item" data-name="caption" onclick="copyIconClass('wpi-caption')">
+                <i class="wpi wpi-caption"></i>
+                <div class="icon-name">wpi-caption</div>
+            </div>
+            <div class="icon-item" data-name="capture-photo" onclick="copyIconClass('wpi-capture-photo')">
+                <i class="wpi wpi-capture-photo"></i>
+                <div class="icon-name">wpi-capture-photo</div>
+            </div>
+            <div class="icon-item" data-name="capture-video" onclick="copyIconClass('wpi-capture-video')">
+                <i class="wpi wpi-capture-video"></i>
+                <div class="icon-name">wpi-capture-video</div>
+            </div>
+            <div class="icon-item" data-name="category" onclick="copyIconClass('wpi-category')">
+                <i class="wpi wpi-category"></i>
+                <div class="icon-name">wpi-category</div>
+            </div>
+            <div class="icon-item" data-name="caution" onclick="copyIconClass('wpi-caution')">
+                <i class="wpi wpi-caution"></i>
+                <div class="icon-name">wpi-caution</div>
+            </div>
+            <div class="icon-item" data-name="caution-filled" onclick="copyIconClass('wpi-caution-filled')">
+                <i class="wpi wpi-caution-filled"></i>
+                <div class="icon-name">wpi-caution-filled</div>
+            </div>
+            <div class="icon-item" data-name="chart-bar" onclick="copyIconClass('wpi-chart-bar')">
+                <i class="wpi wpi-chart-bar"></i>
+                <div class="icon-name">wpi-chart-bar</div>
+            </div>
+            <div class="icon-item" data-name="check" onclick="copyIconClass('wpi-check')">
+                <i class="wpi wpi-check"></i>
+                <div class="icon-name">wpi-check</div>
+            </div>
+            <div class="icon-item" data-name="chevron-down" onclick="copyIconClass('wpi-chevron-down')">
+                <i class="wpi wpi-chevron-down"></i>
+                <div class="icon-name">wpi-chevron-down</div>
+            </div>
+            <div class="icon-item" data-name="chevron-down-small" onclick="copyIconClass('wpi-chevron-down-small')">
+                <i class="wpi wpi-chevron-down-small"></i>
+                <div class="icon-name">wpi-chevron-down-small</div>
+            </div>
+            <div class="icon-item" data-name="chevron-left" onclick="copyIconClass('wpi-chevron-left')">
+                <i class="wpi wpi-chevron-left"></i>
+                <div class="icon-name">wpi-chevron-left</div>
+            </div>
+            <div class="icon-item" data-name="chevron-left-small" onclick="copyIconClass('wpi-chevron-left-small')">
+                <i class="wpi wpi-chevron-left-small"></i>
+                <div class="icon-name">wpi-chevron-left-small</div>
+            </div>
+            <div class="icon-item" data-name="chevron-right" onclick="copyIconClass('wpi-chevron-right')">
+                <i class="wpi wpi-chevron-right"></i>
+                <div class="icon-name">wpi-chevron-right</div>
+            </div>
+            <div class="icon-item" data-name="chevron-right-small" onclick="copyIconClass('wpi-chevron-right-small')">
+                <i class="wpi wpi-chevron-right-small"></i>
+                <div class="icon-name">wpi-chevron-right-small</div>
+            </div>
+            <div class="icon-item" data-name="chevron-up" onclick="copyIconClass('wpi-chevron-up')">
+                <i class="wpi wpi-chevron-up"></i>
+                <div class="icon-name">wpi-chevron-up</div>
+            </div>
+            <div class="icon-item" data-name="chevron-up-down" onclick="copyIconClass('wpi-chevron-up-down')">
+                <i class="wpi wpi-chevron-up-down"></i>
+                <div class="icon-name">wpi-chevron-up-down</div>
+            </div>
+            <div class="icon-item" data-name="classic" onclick="copyIconClass('wpi-classic')">
+                <i class="wpi wpi-classic"></i>
+                <div class="icon-name">wpi-classic</div>
+            </div>
+            <div class="icon-item" data-name="close" onclick="copyIconClass('wpi-close')">
+                <i class="wpi wpi-close"></i>
+                <div class="icon-name">wpi-close</div>
+            </div>
+            <div class="icon-item" data-name="close-small" onclick="copyIconClass('wpi-close-small')">
+                <i class="wpi wpi-close-small"></i>
+                <div class="icon-name">wpi-close-small</div>
+            </div>
+            <div class="icon-item" data-name="cloud" onclick="copyIconClass('wpi-cloud')">
+                <i class="wpi wpi-cloud"></i>
+                <div class="icon-name">wpi-cloud</div>
+            </div>
+            <div class="icon-item" data-name="cloud-download" onclick="copyIconClass('wpi-cloud-download')">
+                <i class="wpi wpi-cloud-download"></i>
+                <div class="icon-name">wpi-cloud-download</div>
+            </div>
+            <div class="icon-item" data-name="cloud-upload" onclick="copyIconClass('wpi-cloud-upload')">
+                <i class="wpi wpi-cloud-upload"></i>
+                <div class="icon-name">wpi-cloud-upload</div>
+            </div>
+            <div class="icon-item" data-name="code" onclick="copyIconClass('wpi-code')">
+                <i class="wpi wpi-code"></i>
+                <div class="icon-name">wpi-code</div>
+            </div>
+            <div class="icon-item" data-name="cog" onclick="copyIconClass('wpi-cog')">
+                <i class="wpi wpi-cog"></i>
+                <div class="icon-name">wpi-cog</div>
+            </div>
+            <div class="icon-item" data-name="color" onclick="copyIconClass('wpi-color')">
+                <i class="wpi wpi-color"></i>
+                <div class="icon-name">wpi-color</div>
+            </div>
+            <div class="icon-item" data-name="column" onclick="copyIconClass('wpi-column')">
+                <i class="wpi wpi-column"></i>
+                <div class="icon-name">wpi-column</div>
+            </div>
+            <div class="icon-item" data-name="columns" onclick="copyIconClass('wpi-columns')">
+                <i class="wpi wpi-columns"></i>
+                <div class="icon-name">wpi-columns</div>
+            </div>
+            <div class="icon-item" data-name="comment" onclick="copyIconClass('wpi-comment')">
+                <i class="wpi wpi-comment"></i>
+                <div class="icon-name">wpi-comment</div>
+            </div>
+            <div class="icon-item" data-name="comment-author-avatar" onclick="copyIconClass('wpi-comment-author-avatar')">
+                <i class="wpi wpi-comment-author-avatar"></i>
+                <div class="icon-name">wpi-comment-author-avatar</div>
+            </div>
+            <div class="icon-item" data-name="comment-author-name" onclick="copyIconClass('wpi-comment-author-name')">
+                <i class="wpi wpi-comment-author-name"></i>
+                <div class="icon-name">wpi-comment-author-name</div>
+            </div>
+            <div class="icon-item" data-name="comment-content" onclick="copyIconClass('wpi-comment-content')">
+                <i class="wpi wpi-comment-content"></i>
+                <div class="icon-name">wpi-comment-content</div>
+            </div>
+            <div class="icon-item" data-name="comment-edit-link" onclick="copyIconClass('wpi-comment-edit-link')">
+                <i class="wpi wpi-comment-edit-link"></i>
+                <div class="icon-name">wpi-comment-edit-link</div>
+            </div>
+            <div class="icon-item" data-name="comment-reply-link" onclick="copyIconClass('wpi-comment-reply-link')">
+                <i class="wpi wpi-comment-reply-link"></i>
+                <div class="icon-name">wpi-comment-reply-link</div>
+            </div>
+            <div class="icon-item" data-name="connection" onclick="copyIconClass('wpi-connection')">
+                <i class="wpi wpi-connection"></i>
+                <div class="icon-name">wpi-connection</div>
+            </div>
+            <div class="icon-item" data-name="copy" onclick="copyIconClass('wpi-copy')">
+                <i class="wpi wpi-copy"></i>
+                <div class="icon-name">wpi-copy</div>
+            </div>
+            <div class="icon-item" data-name="copy-small" onclick="copyIconClass('wpi-copy-small')">
+                <i class="wpi wpi-copy-small"></i>
+                <div class="icon-name">wpi-copy-small</div>
+            </div>
+            <div class="icon-item" data-name="corner-all" onclick="copyIconClass('wpi-corner-all')">
+                <i class="wpi wpi-corner-all"></i>
+                <div class="icon-name">wpi-corner-all</div>
+            </div>
+            <div class="icon-item" data-name="corner-bottom-left" onclick="copyIconClass('wpi-corner-bottom-left')">
+                <i class="wpi wpi-corner-bottom-left"></i>
+                <div class="icon-name">wpi-corner-bottom-left</div>
+            </div>
+            <div class="icon-item" data-name="corner-bottom-right" onclick="copyIconClass('wpi-corner-bottom-right')">
+                <i class="wpi wpi-corner-bottom-right"></i>
+                <div class="icon-name">wpi-corner-bottom-right</div>
+            </div>
+            <div class="icon-item" data-name="corner-top-left" onclick="copyIconClass('wpi-corner-top-left')">
+                <i class="wpi wpi-corner-top-left"></i>
+                <div class="icon-name">wpi-corner-top-left</div>
+            </div>
+            <div class="icon-item" data-name="corner-top-right" onclick="copyIconClass('wpi-corner-top-right')">
+                <i class="wpi wpi-corner-top-right"></i>
+                <div class="icon-name">wpi-corner-top-right</div>
+            </div>
+            <div class="icon-item" data-name="cover" onclick="copyIconClass('wpi-cover')">
+                <i class="wpi wpi-cover"></i>
+                <div class="icon-name">wpi-cover</div>
+            </div>
+            <div class="icon-item" data-name="create" onclick="copyIconClass('wpi-create')">
+                <i class="wpi wpi-create"></i>
+                <div class="icon-name">wpi-create</div>
+            </div>
+            <div class="icon-item" data-name="crop" onclick="copyIconClass('wpi-crop')">
+                <i class="wpi wpi-crop"></i>
+                <div class="icon-name">wpi-crop</div>
+            </div>
+            <div class="icon-item" data-name="currency-dollar" onclick="copyIconClass('wpi-currency-dollar')">
+                <i class="wpi wpi-currency-dollar"></i>
+                <div class="icon-name">wpi-currency-dollar</div>
+            </div>
+            <div class="icon-item" data-name="currency-euro" onclick="copyIconClass('wpi-currency-euro')">
+                <i class="wpi wpi-currency-euro"></i>
+                <div class="icon-name">wpi-currency-euro</div>
+            </div>
+            <div class="icon-item" data-name="currency-pound" onclick="copyIconClass('wpi-currency-pound')">
+                <i class="wpi wpi-currency-pound"></i>
+                <div class="icon-name">wpi-currency-pound</div>
+            </div>
+            <div class="icon-item" data-name="custom-link" onclick="copyIconClass('wpi-custom-link')">
+                <i class="wpi wpi-custom-link"></i>
+                <div class="icon-name">wpi-custom-link</div>
+            </div>
+            <div class="icon-item" data-name="custom-post-type" onclick="copyIconClass('wpi-custom-post-type')">
+                <i class="wpi wpi-custom-post-type"></i>
+                <div class="icon-name">wpi-custom-post-type</div>
+            </div>
+            <div class="icon-item" data-name="dashboard" onclick="copyIconClass('wpi-dashboard')">
+                <i class="wpi wpi-dashboard"></i>
+                <div class="icon-name">wpi-dashboard</div>
+            </div>
+            <div class="icon-item" data-name="desktop" onclick="copyIconClass('wpi-desktop')">
+                <i class="wpi wpi-desktop"></i>
+                <div class="icon-name">wpi-desktop</div>
+            </div>
+            <div class="icon-item" data-name="details" onclick="copyIconClass('wpi-details')">
+                <i class="wpi wpi-details"></i>
+                <div class="icon-name">wpi-details</div>
+            </div>
+            <div class="icon-item" data-name="download" onclick="copyIconClass('wpi-download')">
+                <i class="wpi wpi-download"></i>
+                <div class="icon-name">wpi-download</div>
+            </div>
+            <div class="icon-item" data-name="drafts" onclick="copyIconClass('wpi-drafts')">
+                <i class="wpi wpi-drafts"></i>
+                <div class="icon-name">wpi-drafts</div>
+            </div>
+            <div class="icon-item" data-name="drag-handle" onclick="copyIconClass('wpi-drag-handle')">
+                <i class="wpi wpi-drag-handle"></i>
+                <div class="icon-name">wpi-drag-handle</div>
+            </div>
+            <div class="icon-item" data-name="drawer-left" onclick="copyIconClass('wpi-drawer-left')">
+                <i class="wpi wpi-drawer-left"></i>
+                <div class="icon-name">wpi-drawer-left</div>
+            </div>
+            <div class="icon-item" data-name="drawer-right" onclick="copyIconClass('wpi-drawer-right')">
+                <i class="wpi wpi-drawer-right"></i>
+                <div class="icon-name">wpi-drawer-right</div>
+            </div>
+            <div class="icon-item" data-name="envelope" onclick="copyIconClass('wpi-envelope')">
+                <i class="wpi wpi-envelope"></i>
+                <div class="icon-name">wpi-envelope</div>
+            </div>
+            <div class="icon-item" data-name="error" onclick="copyIconClass('wpi-error')">
+                <i class="wpi wpi-error"></i>
+                <div class="icon-name">wpi-error</div>
+            </div>
+            <div class="icon-item" data-name="external" onclick="copyIconClass('wpi-external')">
+                <i class="wpi wpi-external"></i>
+                <div class="icon-name">wpi-external</div>
+            </div>
+            <div class="icon-item" data-name="file" onclick="copyIconClass('wpi-file')">
+                <i class="wpi wpi-file"></i>
+                <div class="icon-name">wpi-file</div>
+            </div>
+            <div class="icon-item" data-name="filter" onclick="copyIconClass('wpi-filter')">
+                <i class="wpi wpi-filter"></i>
+                <div class="icon-name">wpi-filter</div>
+            </div>
+            <div class="icon-item" data-name="flip-horizontal" onclick="copyIconClass('wpi-flip-horizontal')">
+                <i class="wpi wpi-flip-horizontal"></i>
+                <div class="icon-name">wpi-flip-horizontal</div>
+            </div>
+            <div class="icon-item" data-name="flip-vertical" onclick="copyIconClass('wpi-flip-vertical')">
+                <i class="wpi wpi-flip-vertical"></i>
+                <div class="icon-name">wpi-flip-vertical</div>
+            </div>
+            <div class="icon-item" data-name="footer" onclick="copyIconClass('wpi-footer')">
+                <i class="wpi wpi-footer"></i>
+                <div class="icon-name">wpi-footer</div>
+            </div>
+            <div class="icon-item" data-name="format-bold" onclick="copyIconClass('wpi-format-bold')">
+                <i class="wpi wpi-format-bold"></i>
+                <div class="icon-name">wpi-format-bold</div>
+            </div>
+            <div class="icon-item" data-name="format-capitalize" onclick="copyIconClass('wpi-format-capitalize')">
+                <i class="wpi wpi-format-capitalize"></i>
+                <div class="icon-name">wpi-format-capitalize</div>
+            </div>
+            <div class="icon-item" data-name="format-indent" onclick="copyIconClass('wpi-format-indent')">
+                <i class="wpi wpi-format-indent"></i>
+                <div class="icon-name">wpi-format-indent</div>
+            </div>
+            <div class="icon-item" data-name="format-indent-rtl" onclick="copyIconClass('wpi-format-indent-rtl')">
+                <i class="wpi wpi-format-indent-rtl"></i>
+                <div class="icon-name">wpi-format-indent-rtl</div>
+            </div>
+            <div class="icon-item" data-name="format-italic" onclick="copyIconClass('wpi-format-italic')">
+                <i class="wpi wpi-format-italic"></i>
+                <div class="icon-name">wpi-format-italic</div>
+            </div>
+            <div class="icon-item" data-name="format-list-bullets" onclick="copyIconClass('wpi-format-list-bullets')">
+                <i class="wpi wpi-format-list-bullets"></i>
+                <div class="icon-name">wpi-format-list-bullets</div>
+            </div>
+            <div class="icon-item" data-name="format-list-bullets-rtl" onclick="copyIconClass('wpi-format-list-bullets-rtl')">
+                <i class="wpi wpi-format-list-bullets-rtl"></i>
+                <div class="icon-name">wpi-format-list-bullets-rtl</div>
+            </div>
+            <div class="icon-item" data-name="format-list-numbered" onclick="copyIconClass('wpi-format-list-numbered')">
+                <i class="wpi wpi-format-list-numbered"></i>
+                <div class="icon-name">wpi-format-list-numbered</div>
+            </div>
+            <div class="icon-item" data-name="format-list-numbered-rtl" onclick="copyIconClass('wpi-format-list-numbered-rtl')">
+                <i class="wpi wpi-format-list-numbered-rtl"></i>
+                <div class="icon-name">wpi-format-list-numbered-rtl</div>
+            </div>
+            <div class="icon-item" data-name="format-lowercase" onclick="copyIconClass('wpi-format-lowercase')">
+                <i class="wpi wpi-format-lowercase"></i>
+                <div class="icon-name">wpi-format-lowercase</div>
+            </div>
+            <div class="icon-item" data-name="format-ltr" onclick="copyIconClass('wpi-format-ltr')">
+                <i class="wpi wpi-format-ltr"></i>
+                <div class="icon-name">wpi-format-ltr</div>
+            </div>
+            <div class="icon-item" data-name="format-outdent" onclick="copyIconClass('wpi-format-outdent')">
+                <i class="wpi wpi-format-outdent"></i>
+                <div class="icon-name">wpi-format-outdent</div>
+            </div>
+            <div class="icon-item" data-name="format-outdent-rtl" onclick="copyIconClass('wpi-format-outdent-rtl')">
+                <i class="wpi wpi-format-outdent-rtl"></i>
+                <div class="icon-name">wpi-format-outdent-rtl</div>
+            </div>
+            <div class="icon-item" data-name="format-rtl" onclick="copyIconClass('wpi-format-rtl')">
+                <i class="wpi wpi-format-rtl"></i>
+                <div class="icon-name">wpi-format-rtl</div>
+            </div>
+            <div class="icon-item" data-name="format-strikethrough" onclick="copyIconClass('wpi-format-strikethrough')">
+                <i class="wpi wpi-format-strikethrough"></i>
+                <div class="icon-name">wpi-format-strikethrough</div>
+            </div>
+            <div class="icon-item" data-name="format-underline" onclick="copyIconClass('wpi-format-underline')">
+                <i class="wpi wpi-format-underline"></i>
+                <div class="icon-name">wpi-format-underline</div>
+            </div>
+            <div class="icon-item" data-name="format-uppercase" onclick="copyIconClass('wpi-format-uppercase')">
+                <i class="wpi wpi-format-uppercase"></i>
+                <div class="icon-name">wpi-format-uppercase</div>
+            </div>
+            <div class="icon-item" data-name="fullscreen" onclick="copyIconClass('wpi-fullscreen')">
+                <i class="wpi wpi-fullscreen"></i>
+                <div class="icon-name">wpi-fullscreen</div>
+            </div>
+            <div class="icon-item" data-name="funnel" onclick="copyIconClass('wpi-funnel')">
+                <i class="wpi wpi-funnel"></i>
+                <div class="icon-name">wpi-funnel</div>
+            </div>
+            <div class="icon-item" data-name="gallery" onclick="copyIconClass('wpi-gallery')">
+                <i class="wpi wpi-gallery"></i>
+                <div class="icon-name">wpi-gallery</div>
+            </div>
+            <div class="icon-item" data-name="gift" onclick="copyIconClass('wpi-gift')">
+                <i class="wpi wpi-gift"></i>
+                <div class="icon-name">wpi-gift</div>
+            </div>
+            <div class="icon-item" data-name="globe" onclick="copyIconClass('wpi-globe')">
+                <i class="wpi wpi-globe"></i>
+                <div class="icon-name">wpi-globe</div>
+            </div>
+            <div class="icon-item" data-name="grid" onclick="copyIconClass('wpi-grid')">
+                <i class="wpi wpi-grid"></i>
+                <div class="icon-name">wpi-grid</div>
+            </div>
+            <div class="icon-item" data-name="group" onclick="copyIconClass('wpi-group')">
+                <i class="wpi wpi-group"></i>
+                <div class="icon-name">wpi-group</div>
+            </div>
+            <div class="icon-item" data-name="handle" onclick="copyIconClass('wpi-handle')">
+                <i class="wpi wpi-handle"></i>
+                <div class="icon-name">wpi-handle</div>
+            </div>
+            <div class="icon-item" data-name="header" onclick="copyIconClass('wpi-header')">
+                <i class="wpi wpi-header"></i>
+                <div class="icon-name">wpi-header</div>
+            </div>
+            <div class="icon-item" data-name="heading" onclick="copyIconClass('wpi-heading')">
+                <i class="wpi wpi-heading"></i>
+                <div class="icon-name">wpi-heading</div>
+            </div>
+            <div class="icon-item" data-name="heading-level-1" onclick="copyIconClass('wpi-heading-level-1')">
+                <i class="wpi wpi-heading-level-1"></i>
+                <div class="icon-name">wpi-heading-level-1</div>
+            </div>
+            <div class="icon-item" data-name="heading-level-2" onclick="copyIconClass('wpi-heading-level-2')">
+                <i class="wpi wpi-heading-level-2"></i>
+                <div class="icon-name">wpi-heading-level-2</div>
+            </div>
+            <div class="icon-item" data-name="heading-level-3" onclick="copyIconClass('wpi-heading-level-3')">
+                <i class="wpi wpi-heading-level-3"></i>
+                <div class="icon-name">wpi-heading-level-3</div>
+            </div>
+            <div class="icon-item" data-name="heading-level-4" onclick="copyIconClass('wpi-heading-level-4')">
+                <i class="wpi wpi-heading-level-4"></i>
+                <div class="icon-name">wpi-heading-level-4</div>
+            </div>
+            <div class="icon-item" data-name="heading-level-5" onclick="copyIconClass('wpi-heading-level-5')">
+                <i class="wpi wpi-heading-level-5"></i>
+                <div class="icon-name">wpi-heading-level-5</div>
+            </div>
+            <div class="icon-item" data-name="heading-level-6" onclick="copyIconClass('wpi-heading-level-6')">
+                <i class="wpi wpi-heading-level-6"></i>
+                <div class="icon-name">wpi-heading-level-6</div>
+            </div>
+            <div class="icon-item" data-name="help" onclick="copyIconClass('wpi-help')">
+                <i class="wpi wpi-help"></i>
+                <div class="icon-name">wpi-help</div>
+            </div>
+            <div class="icon-item" data-name="help-filled" onclick="copyIconClass('wpi-help-filled')">
+                <i class="wpi wpi-help-filled"></i>
+                <div class="icon-name">wpi-help-filled</div>
+            </div>
+            <div class="icon-item" data-name="home" onclick="copyIconClass('wpi-home')">
+                <i class="wpi wpi-home"></i>
+                <div class="icon-name">wpi-home</div>
+            </div>
+            <div class="icon-item" data-name="home-button" onclick="copyIconClass('wpi-home-button')">
+                <i class="wpi wpi-home-button"></i>
+                <div class="icon-name">wpi-home-button</div>
+            </div>
+            <div class="icon-item" data-name="html" onclick="copyIconClass('wpi-html')">
+                <i class="wpi wpi-html"></i>
+                <div class="icon-name">wpi-html</div>
+            </div>
+            <div class="icon-item" data-name="image" onclick="copyIconClass('wpi-image')">
+                <i class="wpi wpi-image"></i>
+                <div class="icon-name">wpi-image</div>
+            </div>
+            <div class="icon-item" data-name="inbox" onclick="copyIconClass('wpi-inbox')">
+                <i class="wpi wpi-inbox"></i>
+                <div class="icon-name">wpi-inbox</div>
+            </div>
+            <div class="icon-item" data-name="info" onclick="copyIconClass('wpi-info')">
+                <i class="wpi wpi-info"></i>
+                <div class="icon-name">wpi-info</div>
+            </div>
+            <div class="icon-item" data-name="insert-after" onclick="copyIconClass('wpi-insert-after')">
+                <i class="wpi wpi-insert-after"></i>
+                <div class="icon-name">wpi-insert-after</div>
+            </div>
+            <div class="icon-item" data-name="insert-before" onclick="copyIconClass('wpi-insert-before')">
+                <i class="wpi wpi-insert-before"></i>
+                <div class="icon-name">wpi-insert-before</div>
+            </div>
+            <div class="icon-item" data-name="institution" onclick="copyIconClass('wpi-institution')">
+                <i class="wpi wpi-institution"></i>
+                <div class="icon-name">wpi-institution</div>
+            </div>
+            <div class="icon-item" data-name="justify-bottom" onclick="copyIconClass('wpi-justify-bottom')">
+                <i class="wpi wpi-justify-bottom"></i>
+                <div class="icon-name">wpi-justify-bottom</div>
+            </div>
+            <div class="icon-item" data-name="justify-center" onclick="copyIconClass('wpi-justify-center')">
+                <i class="wpi wpi-justify-center"></i>
+                <div class="icon-name">wpi-justify-center</div>
+            </div>
+            <div class="icon-item" data-name="justify-center-vertical" onclick="copyIconClass('wpi-justify-center-vertical')">
+                <i class="wpi wpi-justify-center-vertical"></i>
+                <div class="icon-name">wpi-justify-center-vertical</div>
+            </div>
+            <div class="icon-item" data-name="justify-left" onclick="copyIconClass('wpi-justify-left')">
+                <i class="wpi wpi-justify-left"></i>
+                <div class="icon-name">wpi-justify-left</div>
+            </div>
+            <div class="icon-item" data-name="justify-right" onclick="copyIconClass('wpi-justify-right')">
+                <i class="wpi wpi-justify-right"></i>
+                <div class="icon-name">wpi-justify-right</div>
+            </div>
+            <div class="icon-item" data-name="justify-space-between" onclick="copyIconClass('wpi-justify-space-between')">
+                <i class="wpi wpi-justify-space-between"></i>
+                <div class="icon-name">wpi-justify-space-between</div>
+            </div>
+            <div class="icon-item" data-name="justify-space-between-vertical" onclick="copyIconClass('wpi-justify-space-between-vertical')">
+                <i class="wpi wpi-justify-space-between-vertical"></i>
+                <div class="icon-name">wpi-justify-space-between-vertical</div>
+            </div>
+            <div class="icon-item" data-name="justify-stretch" onclick="copyIconClass('wpi-justify-stretch')">
+                <i class="wpi wpi-justify-stretch"></i>
+                <div class="icon-name">wpi-justify-stretch</div>
+            </div>
+            <div class="icon-item" data-name="justify-stretch-vertical" onclick="copyIconClass('wpi-justify-stretch-vertical')">
+                <i class="wpi wpi-justify-stretch-vertical"></i>
+                <div class="icon-name">wpi-justify-stretch-vertical</div>
+            </div>
+            <div class="icon-item" data-name="justify-top" onclick="copyIconClass('wpi-justify-top')">
+                <i class="wpi wpi-justify-top"></i>
+                <div class="icon-name">wpi-justify-top</div>
+            </div>
+            <div class="icon-item" data-name="key" onclick="copyIconClass('wpi-key')">
+                <i class="wpi wpi-key"></i>
+                <div class="icon-name">wpi-key</div>
+            </div>
+            <div class="icon-item" data-name="keyboard" onclick="copyIconClass('wpi-keyboard')">
+                <i class="wpi wpi-keyboard"></i>
+                <div class="icon-name">wpi-keyboard</div>
+            </div>
+            <div class="icon-item" data-name="keyboard-close" onclick="copyIconClass('wpi-keyboard-close')">
+                <i class="wpi wpi-keyboard-close"></i>
+                <div class="icon-name">wpi-keyboard-close</div>
+            </div>
+            <div class="icon-item" data-name="keyboard-return" onclick="copyIconClass('wpi-keyboard-return')">
+                <i class="wpi wpi-keyboard-return"></i>
+                <div class="icon-name">wpi-keyboard-return</div>
+            </div>
+            <div class="icon-item" data-name="language" onclick="copyIconClass('wpi-language')">
+                <i class="wpi wpi-language"></i>
+                <div class="icon-name">wpi-language</div>
+            </div>
+            <div class="icon-item" data-name="layout" onclick="copyIconClass('wpi-layout')">
+                <i class="wpi wpi-layout"></i>
+                <div class="icon-name">wpi-layout</div>
+            </div>
+            <div class="icon-item" data-name="level-up" onclick="copyIconClass('wpi-level-up')">
+                <i class="wpi wpi-level-up"></i>
+                <div class="icon-name">wpi-level-up</div>
+            </div>
+            <div class="icon-item" data-name="lifesaver" onclick="copyIconClass('wpi-lifesaver')">
+                <i class="wpi wpi-lifesaver"></i>
+                <div class="icon-name">wpi-lifesaver</div>
+            </div>
+            <div class="icon-item" data-name="line-dashed" onclick="copyIconClass('wpi-line-dashed')">
+                <i class="wpi wpi-line-dashed"></i>
+                <div class="icon-name">wpi-line-dashed</div>
+            </div>
+            <div class="icon-item" data-name="line-dotted" onclick="copyIconClass('wpi-line-dotted')">
+                <i class="wpi wpi-line-dotted"></i>
+                <div class="icon-name">wpi-line-dotted</div>
+            </div>
+            <div class="icon-item" data-name="line-solid" onclick="copyIconClass('wpi-line-solid')">
+                <i class="wpi wpi-line-solid"></i>
+                <div class="icon-name">wpi-line-solid</div>
+            </div>
+            <div class="icon-item" data-name="link" onclick="copyIconClass('wpi-link')">
+                <i class="wpi wpi-link"></i>
+                <div class="icon-name">wpi-link</div>
+            </div>
+            <div class="icon-item" data-name="link-off" onclick="copyIconClass('wpi-link-off')">
+                <i class="wpi wpi-link-off"></i>
+                <div class="icon-name">wpi-link-off</div>
+            </div>
+            <div class="icon-item" data-name="list" onclick="copyIconClass('wpi-list')">
+                <i class="wpi wpi-list"></i>
+                <div class="icon-name">wpi-list</div>
+            </div>
+            <div class="icon-item" data-name="list-item" onclick="copyIconClass('wpi-list-item')">
+                <i class="wpi wpi-list-item"></i>
+                <div class="icon-name">wpi-list-item</div>
+            </div>
+            <div class="icon-item" data-name="list-view" onclick="copyIconClass('wpi-list-view')">
+                <i class="wpi wpi-list-view"></i>
+                <div class="icon-name">wpi-list-view</div>
+            </div>
+            <div class="icon-item" data-name="lock" onclick="copyIconClass('wpi-lock')">
+                <i class="wpi wpi-lock"></i>
+                <div class="icon-name">wpi-lock</div>
+            </div>
+            <div class="icon-item" data-name="lock-outline" onclick="copyIconClass('wpi-lock-outline')">
+                <i class="wpi wpi-lock-outline"></i>
+                <div class="icon-name">wpi-lock-outline</div>
+            </div>
+            <div class="icon-item" data-name="lock-small" onclick="copyIconClass('wpi-lock-small')">
+                <i class="wpi wpi-lock-small"></i>
+                <div class="icon-name">wpi-lock-small</div>
+            </div>
+            <div class="icon-item" data-name="login" onclick="copyIconClass('wpi-login')">
+                <i class="wpi wpi-login"></i>
+                <div class="icon-name">wpi-login</div>
+            </div>
+            <div class="icon-item" data-name="loop" onclick="copyIconClass('wpi-loop')">
+                <i class="wpi wpi-loop"></i>
+                <div class="icon-name">wpi-loop</div>
+            </div>
+            <div class="icon-item" data-name="map-marker" onclick="copyIconClass('wpi-map-marker')">
+                <i class="wpi wpi-map-marker"></i>
+                <div class="icon-name">wpi-map-marker</div>
+            </div>
+            <div class="icon-item" data-name="math" onclick="copyIconClass('wpi-math')">
+                <i class="wpi wpi-math"></i>
+                <div class="icon-name">wpi-math</div>
+            </div>
+            <div class="icon-item" data-name="media" onclick="copyIconClass('wpi-media')">
+                <i class="wpi wpi-media"></i>
+                <div class="icon-name">wpi-media</div>
+            </div>
+            <div class="icon-item" data-name="media-and-text" onclick="copyIconClass('wpi-media-and-text')">
+                <i class="wpi wpi-media-and-text"></i>
+                <div class="icon-name">wpi-media-and-text</div>
+            </div>
+            <div class="icon-item" data-name="megaphone" onclick="copyIconClass('wpi-megaphone')">
+                <i class="wpi wpi-megaphone"></i>
+                <div class="icon-name">wpi-megaphone</div>
+            </div>
+            <div class="icon-item" data-name="menu" onclick="copyIconClass('wpi-menu')">
+                <i class="wpi wpi-menu"></i>
+                <div class="icon-name">wpi-menu</div>
+            </div>
+            <div class="icon-item" data-name="mobile" onclick="copyIconClass('wpi-mobile')">
+                <i class="wpi wpi-mobile"></i>
+                <div class="icon-name">wpi-mobile</div>
+            </div>
+            <div class="icon-item" data-name="more" onclick="copyIconClass('wpi-more')">
+                <i class="wpi wpi-more"></i>
+                <div class="icon-name">wpi-more</div>
+            </div>
+            <div class="icon-item" data-name="more-horizontal" onclick="copyIconClass('wpi-more-horizontal')">
+                <i class="wpi wpi-more-horizontal"></i>
+                <div class="icon-name">wpi-more-horizontal</div>
+            </div>
+            <div class="icon-item" data-name="more-vertical" onclick="copyIconClass('wpi-more-vertical')">
+                <i class="wpi wpi-more-vertical"></i>
+                <div class="icon-name">wpi-more-vertical</div>
+            </div>
+            <div class="icon-item" data-name="move-to" onclick="copyIconClass('wpi-move-to')">
+                <i class="wpi wpi-move-to"></i>
+                <div class="icon-name">wpi-move-to</div>
+            </div>
+            <div class="icon-item" data-name="navigation" onclick="copyIconClass('wpi-navigation')">
+                <i class="wpi wpi-navigation"></i>
+                <div class="icon-name">wpi-navigation</div>
+            </div>
+            <div class="icon-item" data-name="next" onclick="copyIconClass('wpi-next')">
+                <i class="wpi wpi-next"></i>
+                <div class="icon-name">wpi-next</div>
+            </div>
+            <div class="icon-item" data-name="not-allowed" onclick="copyIconClass('wpi-not-allowed')">
+                <i class="wpi wpi-not-allowed"></i>
+                <div class="icon-name">wpi-not-allowed</div>
+            </div>
+            <div class="icon-item" data-name="not-found" onclick="copyIconClass('wpi-not-found')">
+                <i class="wpi wpi-not-found"></i>
+                <div class="icon-name">wpi-not-found</div>
+            </div>
+            <div class="icon-item" data-name="offline" onclick="copyIconClass('wpi-offline')">
+                <i class="wpi wpi-offline"></i>
+                <div class="icon-name">wpi-offline</div>
+            </div>
+            <div class="icon-item" data-name="overlay-text" onclick="copyIconClass('wpi-overlay-text')">
+                <i class="wpi wpi-overlay-text"></i>
+                <div class="icon-name">wpi-overlay-text</div>
+            </div>
+            <div class="icon-item" data-name="page" onclick="copyIconClass('wpi-page')">
+                <i class="wpi wpi-page"></i>
+                <div class="icon-name">wpi-page</div>
+            </div>
+            <div class="icon-item" data-name="page-break" onclick="copyIconClass('wpi-page-break')">
+                <i class="wpi wpi-page-break"></i>
+                <div class="icon-name">wpi-page-break</div>
+            </div>
+            <div class="icon-item" data-name="pages" onclick="copyIconClass('wpi-pages')">
+                <i class="wpi wpi-pages"></i>
+                <div class="icon-name">wpi-pages</div>
+            </div>
+            <div class="icon-item" data-name="paragraph" onclick="copyIconClass('wpi-paragraph')">
+                <i class="wpi wpi-paragraph"></i>
+                <div class="icon-name">wpi-paragraph</div>
+            </div>
+            <div class="icon-item" data-name="payment" onclick="copyIconClass('wpi-payment')">
+                <i class="wpi wpi-payment"></i>
+                <div class="icon-name">wpi-payment</div>
+            </div>
+            <div class="icon-item" data-name="pencil" onclick="copyIconClass('wpi-pencil')">
+                <i class="wpi wpi-pencil"></i>
+                <div class="icon-name">wpi-pencil</div>
+            </div>
+            <div class="icon-item" data-name="pending" onclick="copyIconClass('wpi-pending')">
+                <i class="wpi wpi-pending"></i>
+                <div class="icon-name">wpi-pending</div>
+            </div>
+            <div class="icon-item" data-name="people" onclick="copyIconClass('wpi-people')">
+                <i class="wpi wpi-people"></i>
+                <div class="icon-name">wpi-people</div>
+            </div>
+            <div class="icon-item" data-name="percent" onclick="copyIconClass('wpi-percent')">
+                <i class="wpi wpi-percent"></i>
+                <div class="icon-name">wpi-percent</div>
+            </div>
+            <div class="icon-item" data-name="pin" onclick="copyIconClass('wpi-pin')">
+                <i class="wpi wpi-pin"></i>
+                <div class="icon-name">wpi-pin</div>
+            </div>
+            <div class="icon-item" data-name="pin-small" onclick="copyIconClass('wpi-pin-small')">
+                <i class="wpi wpi-pin-small"></i>
+                <div class="icon-name">wpi-pin-small</div>
+            </div>
+            <div class="icon-item" data-name="plugins" onclick="copyIconClass('wpi-plugins')">
+                <i class="wpi wpi-plugins"></i>
+                <div class="icon-name">wpi-plugins</div>
+            </div>
+            <div class="icon-item" data-name="plus" onclick="copyIconClass('wpi-plus')">
+                <i class="wpi wpi-plus"></i>
+                <div class="icon-name">wpi-plus</div>
+            </div>
+            <div class="icon-item" data-name="plus-circle" onclick="copyIconClass('wpi-plus-circle')">
+                <i class="wpi wpi-plus-circle"></i>
+                <div class="icon-name">wpi-plus-circle</div>
+            </div>
+            <div class="icon-item" data-name="plus-circle-filled" onclick="copyIconClass('wpi-plus-circle-filled')">
+                <i class="wpi wpi-plus-circle-filled"></i>
+                <div class="icon-name">wpi-plus-circle-filled</div>
+            </div>
+            <div class="icon-item" data-name="position-center" onclick="copyIconClass('wpi-position-center')">
+                <i class="wpi wpi-position-center"></i>
+                <div class="icon-name">wpi-position-center</div>
+            </div>
+            <div class="icon-item" data-name="position-left" onclick="copyIconClass('wpi-position-left')">
+                <i class="wpi wpi-position-left"></i>
+                <div class="icon-name">wpi-position-left</div>
+            </div>
+            <div class="icon-item" data-name="position-right" onclick="copyIconClass('wpi-position-right')">
+                <i class="wpi wpi-position-right"></i>
+                <div class="icon-name">wpi-position-right</div>
+            </div>
+            <div class="icon-item" data-name="post" onclick="copyIconClass('wpi-post')">
+                <i class="wpi wpi-post"></i>
+                <div class="icon-name">wpi-post</div>
+            </div>
+            <div class="icon-item" data-name="post-author" onclick="copyIconClass('wpi-post-author')">
+                <i class="wpi wpi-post-author"></i>
+                <div class="icon-name">wpi-post-author</div>
+            </div>
+            <div class="icon-item" data-name="post-categories" onclick="copyIconClass('wpi-post-categories')">
+                <i class="wpi wpi-post-categories"></i>
+                <div class="icon-name">wpi-post-categories</div>
+            </div>
+            <div class="icon-item" data-name="post-comments" onclick="copyIconClass('wpi-post-comments')">
+                <i class="wpi wpi-post-comments"></i>
+                <div class="icon-name">wpi-post-comments</div>
+            </div>
+            <div class="icon-item" data-name="post-comments-count" onclick="copyIconClass('wpi-post-comments-count')">
+                <i class="wpi wpi-post-comments-count"></i>
+                <div class="icon-name">wpi-post-comments-count</div>
+            </div>
+            <div class="icon-item" data-name="post-comments-form" onclick="copyIconClass('wpi-post-comments-form')">
+                <i class="wpi wpi-post-comments-form"></i>
+                <div class="icon-name">wpi-post-comments-form</div>
+            </div>
+            <div class="icon-item" data-name="post-content" onclick="copyIconClass('wpi-post-content')">
+                <i class="wpi wpi-post-content"></i>
+                <div class="icon-name">wpi-post-content</div>
+            </div>
+            <div class="icon-item" data-name="post-date" onclick="copyIconClass('wpi-post-date')">
+                <i class="wpi wpi-post-date"></i>
+                <div class="icon-name">wpi-post-date</div>
+            </div>
+            <div class="icon-item" data-name="post-excerpt" onclick="copyIconClass('wpi-post-excerpt')">
+                <i class="wpi wpi-post-excerpt"></i>
+                <div class="icon-name">wpi-post-excerpt</div>
+            </div>
+            <div class="icon-item" data-name="post-featured-image" onclick="copyIconClass('wpi-post-featured-image')">
+                <i class="wpi wpi-post-featured-image"></i>
+                <div class="icon-name">wpi-post-featured-image</div>
+            </div>
+            <div class="icon-item" data-name="post-list" onclick="copyIconClass('wpi-post-list')">
+                <i class="wpi wpi-post-list"></i>
+                <div class="icon-name">wpi-post-list</div>
+            </div>
+            <div class="icon-item" data-name="post-terms" onclick="copyIconClass('wpi-post-terms')">
+                <i class="wpi wpi-post-terms"></i>
+                <div class="icon-name">wpi-post-terms</div>
+            </div>
+            <div class="icon-item" data-name="preformatted" onclick="copyIconClass('wpi-preformatted')">
+                <i class="wpi wpi-preformatted"></i>
+                <div class="icon-name">wpi-preformatted</div>
+            </div>
+            <div class="icon-item" data-name="previous" onclick="copyIconClass('wpi-previous')">
+                <i class="wpi wpi-previous"></i>
+                <div class="icon-name">wpi-previous</div>
+            </div>
+            <div class="icon-item" data-name="published" onclick="copyIconClass('wpi-published')">
+                <i class="wpi wpi-published"></i>
+                <div class="icon-name">wpi-published</div>
+            </div>
+            <div class="icon-item" data-name="pull-left" onclick="copyIconClass('wpi-pull-left')">
+                <i class="wpi wpi-pull-left"></i>
+                <div class="icon-name">wpi-pull-left</div>
+            </div>
+            <div class="icon-item" data-name="pull-right" onclick="copyIconClass('wpi-pull-right')">
+                <i class="wpi wpi-pull-right"></i>
+                <div class="icon-name">wpi-pull-right</div>
+            </div>
+            <div class="icon-item" data-name="pullquote" onclick="copyIconClass('wpi-pullquote')">
+                <i class="wpi wpi-pullquote"></i>
+                <div class="icon-name">wpi-pullquote</div>
+            </div>
+            <div class="icon-item" data-name="query-pagination" onclick="copyIconClass('wpi-query-pagination')">
+                <i class="wpi wpi-query-pagination"></i>
+                <div class="icon-name">wpi-query-pagination</div>
+            </div>
+            <div class="icon-item" data-name="query-pagination-next" onclick="copyIconClass('wpi-query-pagination-next')">
+                <i class="wpi wpi-query-pagination-next"></i>
+                <div class="icon-name">wpi-query-pagination-next</div>
+            </div>
+            <div class="icon-item" data-name="query-pagination-numbers" onclick="copyIconClass('wpi-query-pagination-numbers')">
+                <i class="wpi wpi-query-pagination-numbers"></i>
+                <div class="icon-name">wpi-query-pagination-numbers</div>
+            </div>
+            <div class="icon-item" data-name="query-pagination-previous" onclick="copyIconClass('wpi-query-pagination-previous')">
+                <i class="wpi wpi-query-pagination-previous"></i>
+                <div class="icon-name">wpi-query-pagination-previous</div>
+            </div>
+            <div class="icon-item" data-name="quote" onclick="copyIconClass('wpi-quote')">
+                <i class="wpi wpi-quote"></i>
+                <div class="icon-name">wpi-quote</div>
+            </div>
+            <div class="icon-item" data-name="receipt" onclick="copyIconClass('wpi-receipt')">
+                <i class="wpi wpi-receipt"></i>
+                <div class="icon-name">wpi-receipt</div>
+            </div>
+            <div class="icon-item" data-name="redo" onclick="copyIconClass('wpi-redo')">
+                <i class="wpi wpi-redo"></i>
+                <div class="icon-name">wpi-redo</div>
+            </div>
+            <div class="icon-item" data-name="remove-bug" onclick="copyIconClass('wpi-remove-bug')">
+                <i class="wpi wpi-remove-bug"></i>
+                <div class="icon-name">wpi-remove-bug</div>
+            </div>
+            <div class="icon-item" data-name="remove-submenu" onclick="copyIconClass('wpi-remove-submenu')">
+                <i class="wpi wpi-remove-submenu"></i>
+                <div class="icon-name">wpi-remove-submenu</div>
+            </div>
+            <div class="icon-item" data-name="replace" onclick="copyIconClass('wpi-replace')">
+                <i class="wpi wpi-replace"></i>
+                <div class="icon-name">wpi-replace</div>
+            </div>
+            <div class="icon-item" data-name="reset" onclick="copyIconClass('wpi-reset')">
+                <i class="wpi wpi-reset"></i>
+                <div class="icon-name">wpi-reset</div>
+            </div>
+            <div class="icon-item" data-name="resize-corner-n-e" onclick="copyIconClass('wpi-resize-corner-n-e')">
+                <i class="wpi wpi-resize-corner-n-e"></i>
+                <div class="icon-name">wpi-resize-corner-n-e</div>
+            </div>
+            <div class="icon-item" data-name="reusable-block" onclick="copyIconClass('wpi-reusable-block')">
+                <i class="wpi wpi-reusable-block"></i>
+                <div class="icon-name">wpi-reusable-block</div>
+            </div>
+            <div class="icon-item" data-name="rotate-left" onclick="copyIconClass('wpi-rotate-left')">
+                <i class="wpi wpi-rotate-left"></i>
+                <div class="icon-name">wpi-rotate-left</div>
+            </div>
+            <div class="icon-item" data-name="rotate-right" onclick="copyIconClass('wpi-rotate-right')">
+                <i class="wpi wpi-rotate-right"></i>
+                <div class="icon-name">wpi-rotate-right</div>
+            </div>
+            <div class="icon-item" data-name="row" onclick="copyIconClass('wpi-row')">
+                <i class="wpi wpi-row"></i>
+                <div class="icon-name">wpi-row</div>
+            </div>
+            <div class="icon-item" data-name="rss" onclick="copyIconClass('wpi-rss')">
+                <i class="wpi wpi-rss"></i>
+                <div class="icon-name">wpi-rss</div>
+            </div>
+            <div class="icon-item" data-name="scheduled" onclick="copyIconClass('wpi-scheduled')">
+                <i class="wpi wpi-scheduled"></i>
+                <div class="icon-name">wpi-scheduled</div>
+            </div>
+            <div class="icon-item" data-name="search" onclick="copyIconClass('wpi-search')">
+                <i class="wpi wpi-search"></i>
+                <div class="icon-name">wpi-search</div>
+            </div>
+            <div class="icon-item" data-name="seen" onclick="copyIconClass('wpi-seen')">
+                <i class="wpi wpi-seen"></i>
+                <div class="icon-name">wpi-seen</div>
+            </div>
+            <div class="icon-item" data-name="send" onclick="copyIconClass('wpi-send')">
+                <i class="wpi wpi-send"></i>
+                <div class="icon-name">wpi-send</div>
+            </div>
+            <div class="icon-item" data-name="separator" onclick="copyIconClass('wpi-separator')">
+                <i class="wpi wpi-separator"></i>
+                <div class="icon-name">wpi-separator</div>
+            </div>
+            <div class="icon-item" data-name="settings" onclick="copyIconClass('wpi-settings')">
+                <i class="wpi wpi-settings"></i>
+                <div class="icon-name">wpi-settings</div>
+            </div>
+            <div class="icon-item" data-name="shadow" onclick="copyIconClass('wpi-shadow')">
+                <i class="wpi wpi-shadow"></i>
+                <div class="icon-name">wpi-shadow</div>
+            </div>
+            <div class="icon-item" data-name="share" onclick="copyIconClass('wpi-share')">
+                <i class="wpi wpi-share"></i>
+                <div class="icon-name">wpi-share</div>
+            </div>
+            <div class="icon-item" data-name="shield" onclick="copyIconClass('wpi-shield')">
+                <i class="wpi wpi-shield"></i>
+                <div class="icon-name">wpi-shield</div>
+            </div>
+            <div class="icon-item" data-name="shipping" onclick="copyIconClass('wpi-shipping')">
+                <i class="wpi wpi-shipping"></i>
+                <div class="icon-name">wpi-shipping</div>
+            </div>
+            <div class="icon-item" data-name="shortcode" onclick="copyIconClass('wpi-shortcode')">
+                <i class="wpi wpi-shortcode"></i>
+                <div class="icon-name">wpi-shortcode</div>
+            </div>
+            <div class="icon-item" data-name="shuffle" onclick="copyIconClass('wpi-shuffle')">
+                <i class="wpi wpi-shuffle"></i>
+                <div class="icon-name">wpi-shuffle</div>
+            </div>
+            <div class="icon-item" data-name="sidebar" onclick="copyIconClass('wpi-sidebar')">
+                <i class="wpi wpi-sidebar"></i>
+                <div class="icon-name">wpi-sidebar</div>
+            </div>
+            <div class="icon-item" data-name="sides-all" onclick="copyIconClass('wpi-sides-all')">
+                <i class="wpi wpi-sides-all"></i>
+                <div class="icon-name">wpi-sides-all</div>
+            </div>
+            <div class="icon-item" data-name="sides-axial" onclick="copyIconClass('wpi-sides-axial')">
+                <i class="wpi wpi-sides-axial"></i>
+                <div class="icon-name">wpi-sides-axial</div>
+            </div>
+            <div class="icon-item" data-name="sides-bottom" onclick="copyIconClass('wpi-sides-bottom')">
+                <i class="wpi wpi-sides-bottom"></i>
+                <div class="icon-name">wpi-sides-bottom</div>
+            </div>
+            <div class="icon-item" data-name="sides-horizontal" onclick="copyIconClass('wpi-sides-horizontal')">
+                <i class="wpi wpi-sides-horizontal"></i>
+                <div class="icon-name">wpi-sides-horizontal</div>
+            </div>
+            <div class="icon-item" data-name="sides-left" onclick="copyIconClass('wpi-sides-left')">
+                <i class="wpi wpi-sides-left"></i>
+                <div class="icon-name">wpi-sides-left</div>
+            </div>
+            <div class="icon-item" data-name="sides-right" onclick="copyIconClass('wpi-sides-right')">
+                <i class="wpi wpi-sides-right"></i>
+                <div class="icon-name">wpi-sides-right</div>
+            </div>
+            <div class="icon-item" data-name="sides-top" onclick="copyIconClass('wpi-sides-top')">
+                <i class="wpi wpi-sides-top"></i>
+                <div class="icon-name">wpi-sides-top</div>
+            </div>
+            <div class="icon-item" data-name="sides-vertical" onclick="copyIconClass('wpi-sides-vertical')">
+                <i class="wpi wpi-sides-vertical"></i>
+                <div class="icon-name">wpi-sides-vertical</div>
+            </div>
+            <div class="icon-item" data-name="site-logo" onclick="copyIconClass('wpi-site-logo')">
+                <i class="wpi wpi-site-logo"></i>
+                <div class="icon-name">wpi-site-logo</div>
+            </div>
+            <div class="icon-item" data-name="square" onclick="copyIconClass('wpi-square')">
+                <i class="wpi wpi-square"></i>
+                <div class="icon-name">wpi-square</div>
+            </div>
+            <div class="icon-item" data-name="stack" onclick="copyIconClass('wpi-stack')">
+                <i class="wpi wpi-stack"></i>
+                <div class="icon-name">wpi-stack</div>
+            </div>
+            <div class="icon-item" data-name="star-empty" onclick="copyIconClass('wpi-star-empty')">
+                <i class="wpi wpi-star-empty"></i>
+                <div class="icon-name">wpi-star-empty</div>
+            </div>
+            <div class="icon-item" data-name="star-filled" onclick="copyIconClass('wpi-star-filled')">
+                <i class="wpi wpi-star-filled"></i>
+                <div class="icon-name">wpi-star-filled</div>
+            </div>
+            <div class="icon-item" data-name="star-half" onclick="copyIconClass('wpi-star-half')">
+                <i class="wpi wpi-star-half"></i>
+                <div class="icon-name">wpi-star-half</div>
+            </div>
+            <div class="icon-item" data-name="store" onclick="copyIconClass('wpi-store')">
+                <i class="wpi wpi-store"></i>
+                <div class="icon-name">wpi-store</div>
+            </div>
+            <div class="icon-item" data-name="stretch-full-width" onclick="copyIconClass('wpi-stretch-full-width')">
+                <i class="wpi wpi-stretch-full-width"></i>
+                <div class="icon-name">wpi-stretch-full-width</div>
+            </div>
+            <div class="icon-item" data-name="stretch-wide" onclick="copyIconClass('wpi-stretch-wide')">
+                <i class="wpi wpi-stretch-wide"></i>
+                <div class="icon-name">wpi-stretch-wide</div>
+            </div>
+            <div class="icon-item" data-name="styles" onclick="copyIconClass('wpi-styles')">
+                <i class="wpi wpi-styles"></i>
+                <div class="icon-name">wpi-styles</div>
+            </div>
+            <div class="icon-item" data-name="subscript" onclick="copyIconClass('wpi-subscript')">
+                <i class="wpi wpi-subscript"></i>
+                <div class="icon-name">wpi-subscript</div>
+            </div>
+            <div class="icon-item" data-name="superscript" onclick="copyIconClass('wpi-superscript')">
+                <i class="wpi wpi-superscript"></i>
+                <div class="icon-name">wpi-superscript</div>
+            </div>
+            <div class="icon-item" data-name="swatch" onclick="copyIconClass('wpi-swatch')">
+                <i class="wpi wpi-swatch"></i>
+                <div class="icon-name">wpi-swatch</div>
+            </div>
+            <div class="icon-item" data-name="symbol" onclick="copyIconClass('wpi-symbol')">
+                <i class="wpi wpi-symbol"></i>
+                <div class="icon-name">wpi-symbol</div>
+            </div>
+            <div class="icon-item" data-name="symbol-filled" onclick="copyIconClass('wpi-symbol-filled')">
+                <i class="wpi wpi-symbol-filled"></i>
+                <div class="icon-name">wpi-symbol-filled</div>
+            </div>
+            <div class="icon-item" data-name="table" onclick="copyIconClass('wpi-table')">
+                <i class="wpi wpi-table"></i>
+                <div class="icon-name">wpi-table</div>
+            </div>
+            <div class="icon-item" data-name="table-column-after" onclick="copyIconClass('wpi-table-column-after')">
+                <i class="wpi wpi-table-column-after"></i>
+                <div class="icon-name">wpi-table-column-after</div>
+            </div>
+            <div class="icon-item" data-name="table-column-before" onclick="copyIconClass('wpi-table-column-before')">
+                <i class="wpi wpi-table-column-before"></i>
+                <div class="icon-name">wpi-table-column-before</div>
+            </div>
+            <div class="icon-item" data-name="table-column-delete" onclick="copyIconClass('wpi-table-column-delete')">
+                <i class="wpi wpi-table-column-delete"></i>
+                <div class="icon-name">wpi-table-column-delete</div>
+            </div>
+            <div class="icon-item" data-name="table-of-contents" onclick="copyIconClass('wpi-table-of-contents')">
+                <i class="wpi wpi-table-of-contents"></i>
+                <div class="icon-name">wpi-table-of-contents</div>
+            </div>
+            <div class="icon-item" data-name="table-row-after" onclick="copyIconClass('wpi-table-row-after')">
+                <i class="wpi wpi-table-row-after"></i>
+                <div class="icon-name">wpi-table-row-after</div>
+            </div>
+            <div class="icon-item" data-name="table-row-before" onclick="copyIconClass('wpi-table-row-before')">
+                <i class="wpi wpi-table-row-before"></i>
+                <div class="icon-name">wpi-table-row-before</div>
+            </div>
+            <div class="icon-item" data-name="table-row-delete" onclick="copyIconClass('wpi-table-row-delete')">
+                <i class="wpi wpi-table-row-delete"></i>
+                <div class="icon-name">wpi-table-row-delete</div>
+            </div>
+            <div class="icon-item" data-name="tablet" onclick="copyIconClass('wpi-tablet')">
+                <i class="wpi wpi-tablet"></i>
+                <div class="icon-name">wpi-tablet</div>
+            </div>
+            <div class="icon-item" data-name="tag" onclick="copyIconClass('wpi-tag')">
+                <i class="wpi wpi-tag"></i>
+                <div class="icon-name">wpi-tag</div>
+            </div>
+            <div class="icon-item" data-name="term-count" onclick="copyIconClass('wpi-term-count')">
+                <i class="wpi wpi-term-count"></i>
+                <div class="icon-name">wpi-term-count</div>
+            </div>
+            <div class="icon-item" data-name="term-description" onclick="copyIconClass('wpi-term-description')">
+                <i class="wpi wpi-term-description"></i>
+                <div class="icon-name">wpi-term-description</div>
+            </div>
+            <div class="icon-item" data-name="term-name" onclick="copyIconClass('wpi-term-name')">
+                <i class="wpi wpi-term-name"></i>
+                <div class="icon-name">wpi-term-name</div>
+            </div>
+            <div class="icon-item" data-name="text-color" onclick="copyIconClass('wpi-text-color')">
+                <i class="wpi wpi-text-color"></i>
+                <div class="icon-name">wpi-text-color</div>
+            </div>
+            <div class="icon-item" data-name="text-horizontal" onclick="copyIconClass('wpi-text-horizontal')">
+                <i class="wpi wpi-text-horizontal"></i>
+                <div class="icon-name">wpi-text-horizontal</div>
+            </div>
+            <div class="icon-item" data-name="text-vertical" onclick="copyIconClass('wpi-text-vertical')">
+                <i class="wpi wpi-text-vertical"></i>
+                <div class="icon-name">wpi-text-vertical</div>
+            </div>
+            <div class="icon-item" data-name="thumbs-down" onclick="copyIconClass('wpi-thumbs-down')">
+                <i class="wpi wpi-thumbs-down"></i>
+                <div class="icon-name">wpi-thumbs-down</div>
+            </div>
+            <div class="icon-item" data-name="thumbs-up" onclick="copyIconClass('wpi-thumbs-up')">
+                <i class="wpi wpi-thumbs-up"></i>
+                <div class="icon-name">wpi-thumbs-up</div>
+            </div>
+            <div class="icon-item" data-name="time-to-read" onclick="copyIconClass('wpi-time-to-read')">
+                <i class="wpi wpi-time-to-read"></i>
+                <div class="icon-name">wpi-time-to-read</div>
+            </div>
+            <div class="icon-item" data-name="tip" onclick="copyIconClass('wpi-tip')">
+                <i class="wpi wpi-tip"></i>
+                <div class="icon-name">wpi-tip</div>
+            </div>
+            <div class="icon-item" data-name="title" onclick="copyIconClass('wpi-title')">
+                <i class="wpi wpi-title"></i>
+                <div class="icon-name">wpi-title</div>
+            </div>
+            <div class="icon-item" data-name="tool" onclick="copyIconClass('wpi-tool')">
+                <i class="wpi wpi-tool"></i>
+                <div class="icon-name">wpi-tool</div>
+            </div>
+            <div class="icon-item" data-name="trash" onclick="copyIconClass('wpi-trash')">
+                <i class="wpi wpi-trash"></i>
+                <div class="icon-name">wpi-trash</div>
+            </div>
+            <div class="icon-item" data-name="trending-down" onclick="copyIconClass('wpi-trending-down')">
+                <i class="wpi wpi-trending-down"></i>
+                <div class="icon-name">wpi-trending-down</div>
+            </div>
+            <div class="icon-item" data-name="trending-up" onclick="copyIconClass('wpi-trending-up')">
+                <i class="wpi wpi-trending-up"></i>
+                <div class="icon-name">wpi-trending-up</div>
+            </div>
+            <div class="icon-item" data-name="typography" onclick="copyIconClass('wpi-typography')">
+                <i class="wpi wpi-typography"></i>
+                <div class="icon-name">wpi-typography</div>
+            </div>
+            <div class="icon-item" data-name="undo" onclick="copyIconClass('wpi-undo')">
+                <i class="wpi wpi-undo"></i>
+                <div class="icon-name">wpi-undo</div>
+            </div>
+            <div class="icon-item" data-name="ungroup" onclick="copyIconClass('wpi-ungroup')">
+                <i class="wpi wpi-ungroup"></i>
+                <div class="icon-name">wpi-ungroup</div>
+            </div>
+            <div class="icon-item" data-name="unlock" onclick="copyIconClass('wpi-unlock')">
+                <i class="wpi wpi-unlock"></i>
+                <div class="icon-name">wpi-unlock</div>
+            </div>
+            <div class="icon-item" data-name="unseen" onclick="copyIconClass('wpi-unseen')">
+                <i class="wpi wpi-unseen"></i>
+                <div class="icon-name">wpi-unseen</div>
+            </div>
+            <div class="icon-item" data-name="update" onclick="copyIconClass('wpi-update')">
+                <i class="wpi wpi-update"></i>
+                <div class="icon-name">wpi-update</div>
+            </div>
+            <div class="icon-item" data-name="upload" onclick="copyIconClass('wpi-upload')">
+                <i class="wpi wpi-upload"></i>
+                <div class="icon-name">wpi-upload</div>
+            </div>
+            <div class="icon-item" data-name="verse" onclick="copyIconClass('wpi-verse')">
+                <i class="wpi wpi-verse"></i>
+                <div class="icon-name">wpi-verse</div>
+            </div>
+            <div class="icon-item" data-name="video" onclick="copyIconClass('wpi-video')">
+                <i class="wpi wpi-video"></i>
+                <div class="icon-name">wpi-video</div>
+            </div>
+            <div class="icon-item" data-name="widget" onclick="copyIconClass('wpi-widget')">
+                <i class="wpi wpi-widget"></i>
+                <div class="icon-name">wpi-widget</div>
+            </div>
+            <div class="icon-item" data-name="word-count" onclick="copyIconClass('wpi-word-count')">
+                <i class="wpi wpi-word-count"></i>
+                <div class="icon-name">wpi-word-count</div>
+            </div>
+            <div class="icon-item" data-name="wordpress" onclick="copyIconClass('wpi-wordpress')">
+                <i class="wpi wpi-wordpress"></i>
+                <div class="icon-name">wpi-wordpress</div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-line">
+                Icons created by <a href="https://github.com/WordPress/gutenberg/tree/trunk/packages/icons" target="_blank">WordPress Design Team</a>
+            </div>
+            <div class="footer-line">
+                Font conversion tool by <a href="https://dplugins.com" target="_blank">DPlugins</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        const iconGrid = document.getElementById('iconGrid');
+        const iconItems = iconGrid.querySelectorAll('.icon-item');
+
+        searchInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            iconItems.forEach(item => {
+                const name = item.dataset.name.toLowerCase();
+                item.style.display = name.includes(searchTerm) ? 'flex' : 'none';
+            });
+        });
+
+        function copyIconClass(className) {
+            navigator.clipboard.writeText(className).then(() => {
+                showCopiedNotification(className);
+            });
+        }
+
+        function showCopiedNotification(className) {
+            const notification = document.createElement('div');
+            notification.className = 'copied';
+            notification.textContent = `Copied: ${className}`;
+            document.body.appendChild(notification);
+            setTimeout(() => notification.remove(), 3000);
+        }
+    </script>
+</body>
+</html>
